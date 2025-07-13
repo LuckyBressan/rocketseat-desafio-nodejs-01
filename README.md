@@ -37,3 +37,17 @@ Rotas da API:
     - Valida se o registro existe para o ID informado
 - `POST - /tasks/import`
     -  importa tasks a partir de um csv que se encontra na raiz do projeto
+
+## Como testar/desenvolver a API
+
+1. Com a pasta do projeto aberta no cmd, execute:
+    -  Isto vai instalar as depêndencias e iniciar o server.js
+
+```sh
+pnpm i
+npm run dev
+```
+
+2. Pegue a collection `test-api.yaml` e importe no insomnia
+3. Pronto, basta executar as requests através do insomnia
+
