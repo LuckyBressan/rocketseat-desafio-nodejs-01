@@ -1,0 +1,84 @@
+{
+  "tasks": [
+    {
+      "id": "279ef34d-649a-460f-a01a-ec86169ae87b",
+      "description": "Durante a noite",
+      "completed_at": null,
+      "created_at": "12/07/2025 13:51:53",
+      "updated_at": "12/07/2025 14:06:03",
+      "title": "Estudar Node JS"
+    },
+    {
+      "id": "60b08b1a-9274-4e44-b894-862cd1ed9b61",
+      "title": "Implementar API REST",
+      "description": "Criar endpoints para tarefas",
+      "completed_at": null,
+      "created_at": "12/07/2025 13:51:53",
+      "updated_at": null
+    },
+    {
+      "id": "d35f15a3-c522-4348-b89a-a1bf7918821f",
+      "title": "Testar aplicação",
+      "description": "Escrever testes unitários",
+      "completed_at": null,
+      "created_at": "12/07/2025 13:51:53",
+      "updated_at": null
+    },
+    {
+      "id": "f999bef9-07e4-4184-b48c-fca5622acd1c",
+      "title": "Documentar código",
+      "description": "Adicionar comentários e README",
+      "completed_at": null,
+      "created_at": "12/07/2025 13:51:53",
+      "updated_at": null
+    },
+    {
+      "id": "0f60a3e9-66ca-46dc-9cce-7fc7db0c5fca",
+      "title": "Configurar ambiente",
+      "description": "Instalar dependências e configurar o projeto",
+      "completed_at": null,
+      "created_at": "12/07/2025 13:51:53",
+      "updated_at": null
+    },
+    {
+      "id": "ee44343b-cf8f-435b-b681-5670482bfe16",
+      "title": "Refatorar código",
+      "description": "Melhorar organização e legibilidade",
+      "completed_at": null,
+      "created_at": "12/07/2025 13:51:53",
+      "updated_at": null
+    },
+    {
+      "id": "f55c6096-2f3d-4911-bc94-789b301a5058",
+      "title": "Estudar Express",
+      "description": "Aprender sobre rotas e middlewares",
+      "completed_at": null,
+      "created_at": "12/07/2025 13:51:53",
+      "updated_at": null
+    },
+    {
+      "id": "8275be23-adbe-4dff-bc9c-d5e633098bf5",
+      "title": "Implementar autenticação",
+      "description": "Adicionar login e proteção de rotas",
+      "completed_at": null,
+      "created_at": "12/07/2025 13:51:53",
+      "updated_at": null
+    },
+    {
+      "id": "5208c409-7009-441c-9248-c8e3f2ff4338",
+      "title": "Deploy da aplicação",
+      "description": "Publicar projeto em ambiente online",
+      "completed_at": null,
+      "created_at": "12/07/2025 13:51:53",
+      "updated_at": null
+    },
+    {
+      "id": "59d8e8e0-92cd-40cd-9e59-4649c270a5e7",
+      "title": "Estudar banco dedados",
+      "description": "Aprender integração com bancos",
+      "completed_at": null,
+      "created_at": "12/07/2025 13:51:53",
+      "updated_at": null
+    }
+  ]
+}

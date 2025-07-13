@@ -1,0 +1,176 @@
+type: collection.insomnia.rest/5.0
+name: Desafio - NodeJS 01
+meta:
+  id: wrk_4a43a56f15d5404cb61528b85ace2382
+  created: 1752246035419
+  modified: 1752246035419
+  description: ""
+collection:
+  - url: "{{ _.baseUrl }}tasks"
+    name: Listar Tasks
+    meta:
+      id: req_5e0bbfdba46c4f6badfe278f08893d3f
+      created: 1752246039299
+      modified: 1752246746575
+      isPrivate: false
+      description: ""
+      sortKey: -1752246039299
+    method: GET
+    headers:
+      - name: User-Agent
+        value: insomnia/11.3.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: "{{ _.baseUrl }}tasks"
+    name: Criar Tasks
+    meta:
+      id: req_c806ec2d2a9d4298a17a18c83211269c
+      created: 1752246734593
+      modified: 1752254021542
+      isPrivate: false
+      description: ""
+      sortKey: -1752246734593
+    method: POST
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"title": "Ir na UPA",
+        	"description": "Durante a tarde"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.3.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: "{{ _.baseUrl }}tasks/279ef34d-649a-460f-a01a-ec86169ae87b"
+    name: Atualizar Tasks
+    meta:
+      id: req_3e9a4b37abcf4eaba448f593ad161598
+      created: 1752257278364
+      modified: 1752339961419
+      isPrivate: false
+      description: ""
+      sortKey: -1752246386946
+    method: PUT
+    body:
+      mimeType: application/json
+      text: |-
+        {
+        	"title": "Estudar Node JS"
+        }
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.3.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: "{{ _.baseUrl }}tasks/88e48655-2a78-47c6-9816-840048e57bef"
+    name: Completar Tasks
+    meta:
+      id: req_723dea1f2574451a92c5c034fc4f6855
+      created: 1752257811114
+      modified: 1752258499618
+      isPrivate: false
+      description: ""
+      sortKey: -1752246213122.5
+    method: PATCH
+    body:
+      mimeType: application/json
+      text: ""
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.3.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: "{{ _.baseUrl }}tasks/88e48655-2a78-47c6-9816-840048e57bef"
+    name: Deletar Tasks
+    meta:
+      id: req_e20bce932dd74ddfa679e766f440fea1
+      created: 1752257836647
+      modified: 1752258512524
+      isPrivate: false
+      description: ""
+      sortKey: -1752246126210.75
+    method: DELETE
+    body:
+      mimeType: application/json
+      text: ""
+    headers:
+      - name: Content-Type
+        value: application/json
+      - name: User-Agent
+        value: insomnia/11.3.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+  - url: "{{ _.baseUrl }}tasks/import"
+    name: Importar Tasks
+    meta:
+      id: req_e1e1205e5ad04f9b8bc296418a9d6b21
+      created: 1752338310928
+      modified: 1752338496787
+      isPrivate: false
+      description: ""
+      sortKey: -1752246560769.5
+    method: POST
+    headers:
+      - name: User-Agent
+        value: insomnia/11.3.0
+    settings:
+      renderRequestBody: true
+      encodeUrl: true
+      followRedirects: global
+      cookies:
+        send: true
+        store: true
+      rebuildPath: true
+cookieJar:
+  name: Default Jar
+  meta:
+    id: jar_2f8c1783370abbdeda9a2dd1e8aee5c1027d5e3d
+    created: 1752246035422
+    modified: 1752246035422
+environments:
+  name: Base Environment
+  meta:
+    id: env_2f8c1783370abbdeda9a2dd1e8aee5c1027d5e3d
+    created: 1752246035421
+    modified: 1752246083875
+    isPrivate: false
+  data:
+    baseUrl: http://localhost:3333/
